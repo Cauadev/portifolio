@@ -143,4 +143,13 @@ ul{
     cursor: pointer;
 }
 }
+
+@media(max-width: 475px){
+    .menu{
+        display: none;
+    }
+    .navbar-custom{
+        justify-content: center;
+    }
+}
 </style>
